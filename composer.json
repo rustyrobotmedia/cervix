@@ -1,0 +1,21 @@
+{
+    "name": "cervix/cervix",
+    "description": "A stripped-down simple API server",
+    "type": "library",
+    "require": {
+        "workerman/workerman": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cervix\\": "src/Cervix"
+        }
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Steven Pratt",
+            "email": "steven@kalls.io"
+        }
+    ],
+    "minimum-stability": "dev"
+}
